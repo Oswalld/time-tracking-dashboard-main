@@ -239,6 +239,7 @@ body {
 @media screen and (min-width: 1440px) {
   .dashboard {
     grid-template-columns: repeat(4, 255px);
+    gap: 30px;
   }
   .profil {
     grid-column: auto;
