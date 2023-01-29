@@ -132,6 +132,9 @@ body {
 .profil .profil-bottom-part .timeframe {
   background-color: transparent;
   border: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
   color: hsl(235deg, 45%, 61%);
 }
 .profil .profil-bottom-part .timeframe:active {

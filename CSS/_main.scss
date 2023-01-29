@@ -65,7 +65,11 @@ body{
 
             background-color: transparent;
             border: none;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
             color: $Desaturated-blue;
+            
 
             &:active{
                 color: #ffffff;
