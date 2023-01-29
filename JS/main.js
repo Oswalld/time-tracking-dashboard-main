@@ -17,10 +17,10 @@ for (let i = 0; i < cards.length; i++) {
     let current = card.getElementsByClassName("current-data")[0];
 
     title.innerHTML = data[i].title;
-    previous.innerHTML = data[i].timeframes.daily.previous;
-    current.innerHTML = data[i].timeframes.daily.current;
+    previous.innerHTML = data[i].timeframes.weekly.previous;
+    current.innerHTML = data[i].timeframes.weekly.current;
 
-    daily.style.color = "#fff";
+    weekly.style.color = "#fff";
 };
 
 // lorsque l'on clique sur "daily" "weekly" et "monthly", change les donnée par rapport aux données du fichier json
