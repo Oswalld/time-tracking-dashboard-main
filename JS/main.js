@@ -12,9 +12,9 @@ const monthly = document.querySelector('.monthly-btn');
 for (let i = 0; i < cards.length; i++) {
     let card = cards[i];
 
-    var title = card.getElementsByClassName("title")[0];
-    var previous = card.getElementsByClassName("previous-data")[0];
-    var current = card.getElementsByClassName("current-data")[0];
+    let title = card.getElementsByClassName("title")[0];
+    let previous = card.getElementsByClassName("previous-data")[0];
+    let current = card.getElementsByClassName("current-data")[0];
 
     title.innerHTML = data[i].title;
     previous.innerHTML = data[i].timeframes.daily.previous;
@@ -29,8 +29,8 @@ daily.addEventListener("click", () => {
     for (let i = 0; i < cards.length; i++) {
         let card = cards[i];
 
-        var previous = card.getElementsByClassName("previous-data")[0];
-        var current = card.getElementsByClassName("current-data")[0];
+        let previous = card.getElementsByClassName("previous-data")[0];
+        let current = card.getElementsByClassName("current-data")[0];
 
         previous.innerHTML = data[i].timeframes.daily.previous;
         current.innerHTML = data[i].timeframes.daily.current;
@@ -46,8 +46,8 @@ weekly.addEventListener("click", () => {
     for (let i = 0; i < cards.length; i++) {
         let card = cards[i];
 
-        var previous = card.getElementsByClassName("previous-data")[0];
-        var current = card.getElementsByClassName("current-data")[0];
+        let previous = card.getElementsByClassName("previous-data")[0];
+        let current = card.getElementsByClassName("current-data")[0];
 
         previous.innerHTML = data[i].timeframes.weekly.previous;
         current.innerHTML = data[i].timeframes.weekly.current;
@@ -62,8 +62,8 @@ monthly.addEventListener("click", () => {
     for (let i = 0; i < cards.length; i++) {
         let card = cards[i];
 
-        var previous = card.getElementsByClassName("previous-data")[0];
-        var current = card.getElementsByClassName("current-data")[0];
+        let previous = card.getElementsByClassName("previous-data")[0];
+        let current = card.getElementsByClassName("current-data")[0];
 
         previous.innerHTML = data[i].timeframes.monthly.previous;
         current.innerHTML = data[i].timeframes.monthly.current;
