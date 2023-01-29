@@ -7,6 +7,8 @@ const daily = document.querySelector('.daily-btn');
 const weekly = document.querySelector('.weekly-btn');
 const monthly = document.querySelector('.monthly-btn');
 
+weekly.style.color = "#fff";
+
 // charges les donnée daily sur le document avec les données du json
 
 for (let i = 0; i < cards.length; i++) {
@@ -20,7 +22,6 @@ for (let i = 0; i < cards.length; i++) {
     previous.innerHTML = data[i].timeframes.weekly.previous;
     current.innerHTML = data[i].timeframes.weekly.current;
 
-    weekly.style.color = "#fff";
 };
 
 // lorsque l'on clique sur "daily" "weekly" et "monthly", change les donnée par rapport aux données du fichier json

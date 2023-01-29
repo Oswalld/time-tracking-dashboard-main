@@ -260,7 +260,7 @@ body {
   .profil .profil-top-part .profil-name .name {
     font-size: 40px;
     line-height: 47px;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
   .profil .profil-bottom-part {
     flex-direction: column;
@@ -274,7 +274,7 @@ body {
   }
   .card-top {
     position: relative;
-    height: 88px;
+    height: 84px;
     overflow: hidden;
     z-index: 1;
     border-radius: 15px 15px 0 0;
